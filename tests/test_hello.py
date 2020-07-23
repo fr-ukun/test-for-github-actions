@@ -6,7 +6,7 @@ def test_hello_default(capsys):
     out, err = capsys.readouterr()
     assert out == "Hello, world.\n"
 
-    
+
 def test_hello_with_name(capsys):
     hello("foo")
     hello("bar")
